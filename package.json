@@ -1,0 +1,13 @@
+{
+  "name": "is-string",
+  "description": "Check if a value is a string",
+  "repository": "git://github.com/micro-js/is-string.git",
+  "version": "0.1.0",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "tape": "^4.2.0",
+    "standard": "^4.0.0"
+  }
+}
