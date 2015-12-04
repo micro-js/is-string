@@ -35,11 +35,11 @@ test('obj is not string', function (t) {
 })
 
 test('array is not string', function (t) {
-   t.equal(isString([]), false)
-   t.end()
+  t.equal(isString([]), false)
+  t.end()
 })
 
 test('number is not string', function (t) {
-   t.equal(isString(1), false)
-   t.end()
+  t.equal(isString(1), false)
+  t.end()
 })
