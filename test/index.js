@@ -9,13 +9,37 @@ var test = require('tape')
  * Tests
  */
 
-test('should work', function (t) {
-  t.ok(isString('test'))
-  t.ok(!isString())
-  t.ok(!isString(undefined))
-  t.ok(!isString(null))
-  t.ok(!isString({}))
-  t.ok(!isString([]))
-  t.ok(!isString(1))
+test('string is string', function (t) {
+  t.equal(isString('test'), true)
   t.end()
+})
+
+test('empty is not string', function (t) {
+  t.equal(isString(), false)
+  t.end()
+})
+
+test('undefined is not string', function (t) {
+  t.equal(isString(undefined), false)
+  t.end()
+})
+
+test('null is not string', function (t) {
+  t.equal(isString(null), false)
+  t.end()
+})
+
+test('obj is not string', function (t) {
+  t.equal(isString({}), false)
+  t.end()
+})
+
+test('array is not string', function (t) {
+   t.equal(isString([]), false)
+   t.end()
+})
+
+test('number is not string', function (t) {
+   t.equal(isString(1), false)
+   t.end()
 })
