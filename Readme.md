@@ -10,12 +10,12 @@ Check if string.
 
 ## Installation
 
-    $ npm install @micro-js/is-string
+    $ npm install @f/is-string
 
 ## Usage
 
 ```js
-var isString = require('@micro-js/is-string')
+var isString = require('@f/is-string')
 
 isString('foo') // => true
 ```
@@ -38,5 +38,5 @@ MIT
 [git-url]: https://github.com/micro-js/is-string
 [standard-image]: https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat
 [standard-url]: https://github.com/feross/standard
-[npm-image]: https://img.shields.io/npm/v/@micro-js/is-string.svg?style=flat-square
-[npm-url]: https://npmjs.org/package/@micro-js/is-string
+[npm-image]: https://img.shields.io/npm/v/@f/is-string.svg?style=flat-square
+[npm-url]: https://npmjs.org/package/@f/is-string
