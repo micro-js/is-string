@@ -2,7 +2,7 @@
   "name": "@f/is-string",
   "description": "Check if string.",
   "repository": "git://github.com/micro-js/is-string.git",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "license": "MIT",
   "main": "lib/index.js",
   "scripts": {
